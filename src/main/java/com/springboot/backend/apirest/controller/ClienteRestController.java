@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.springboot.backend.apirest.models.entity.Cliente;
 import com.springboot.backend.apirest.service.ClienteService;
+import com.springboot.backend.apirest.service.impl.ClienteServiceImpl;
 
 @CrossOrigin(origins = {"http://localhost:4200"})
 @RestController
