@@ -45,7 +45,7 @@ public class ClienteRestController {
 	
 	@GetMapping("/ejemplo")
 	public String ejemplo() {
-		return "ejemplo3";
+		return "ejemplo4";
 	}
 	
 	@PostMapping("/clientes")
