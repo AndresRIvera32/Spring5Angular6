@@ -23,7 +23,7 @@ import com.springboot.backend.apirest.models.entity.Cliente;
 import com.springboot.backend.apirest.service.ClienteService;
 import com.springboot.backend.apirest.service.impl.ClienteServiceImpl;
 
-@CrossOrigin(origins = {"http://localhost:4200"})
+//@CrossOrigin(origins = {"http://localhost:4200"})
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
