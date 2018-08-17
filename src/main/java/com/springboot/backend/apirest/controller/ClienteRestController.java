@@ -43,6 +43,11 @@ public class ClienteRestController {
 		return clientService.findById(id);	
 	}
 	
+	@GetMapping("/ejemplo")
+	public String ejemplo() {
+		return "ejemplo";
+	}
+	
 	@PostMapping("/clientes")
 	@ResponseStatus(HttpStatus.CREATED)
 	public Cliente insertCliente(@RequestBody Cliente cliente) {
