@@ -43,4 +43,5 @@ jobs:
         staging:
             branch: master
         heroku:
-            appname: boiling-inlet-52174
+            appname: spring-api-rest
+
