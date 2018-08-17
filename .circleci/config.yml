@@ -41,10 +41,4 @@ jobs:
       # run tests!
       - run: gradle test
 
-	deployment:
-		staging:
-			branch: master
-			heroku:
-				appname: boiling-inlet-52174
-
 
