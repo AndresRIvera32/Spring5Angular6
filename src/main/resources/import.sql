@@ -6,4 +6,4 @@ insert into clientes values(4,'lara',CURDATE(),'sancas@mail.com','sancas');
 insert into clientes values(5,'cañon',CURDATE(),'catalina@mail.com','catalina');
 insert into clientes values(6,'sandoval',CURDATE(),'sara@mail.com','sara');
 insert into clientes values(7,'prieto',CURDATE(),'carlos@mail.com','carlos');
-insert into clientes values(7,'sair',CURDATE(),'carlos@mail.com','Betty');
+insert into clientes values(8,'sair',CURDATE(),'carlos@mail.com','Betty');
